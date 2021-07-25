@@ -1,0 +1,30 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+			int i=0;
+			int f1=1;
+			int f2=1;
+			int f3=0;
+			int sum=0;
+			
+			while(true) {
+			    i++;
+				f3=f1+f2;
+				sum=sum+f3;
+				f2=f1;
+				f1=f3;
+				
+			System.out.printf("\n%-5d %5d",i,f3);
+				
+				
+				
+				if(sum>1000)
+				{
+					break;
+				}
+					//System.out.printf("\n%-5d %5d",i,f3);
+			}
+		
+	}
+}
